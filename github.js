@@ -29,16 +29,12 @@ git add 1,2,3,4파일 -> staging(local) - 1,2,3,4파일이 존재 -> git commit 
 commit -> commit -> branch1 (덧셈)
                  -> branch2 (곱셈)
 뭐가 더 좋을지 둘다 작업하고 main에 사용할지 말지 결정할 수 있다.
-branch만드는 방법에는.
-먼저 cmd에서 git branch branch명으로 새 branch를 만들고 이를 main에서 push해주어 웹에도 반영되도록 하는 것
-웹에서 branch를 만들고 pull로 내 컴퓨터에 가져오는것 이렇게 2가지의 방법이 있다 
-git branch branch명 으로 새 branch를 만들 수 있다
-만들어진 branch는 git checkout branch명으로 이동 가능하다
-
-1234
-
-
-git push로 현재 branch에 업로드 가능하다
+branch만드는 방법운
+먼저 cmd에서 git branch branch명으로 새 branch를 만들고 이를 push해주면 웹과 연동이 안되어 있어서 등록이 안된다. 
+ push --set-upstream origin branch명 나오는데 이를 cmd에 치면 웹과 연동이 된다.
+그리고 웹에서 branch를 만들고 pull로 내 컴퓨터에 가져오는것 이렇게 2가지가 있다 
+.
+만들어진 branch는 git checkout branch명으로 이동 가능하다.
 */
 
 /* 
