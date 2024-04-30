@@ -38,7 +38,7 @@ branch만드는 방법운
 branch에 있는 것을 main으로 옮기는 방법은
 main에서 git merge branch명 으로 옮기기, 
 branch2에서 push로 코드를 공유하고 main에 포함시킬지를 결정하는 방법이 있다
-
+추가된 내용
 */
 
 /* 
