@@ -32,8 +32,8 @@ commit -> commit -> branch1 (덧셈)
 branch만드는 방법운
 먼저 cmd에서 git branch branch명으로 새 branch를 만들고 이를 push해주면 웹과 연동이 안되어 있어서 등록이 안된다. 
  push --set-upstream origin branch명 나오는데 이를 cmd에 치면 웹과 연동이 된다.
-그리고 웹에서 branch를 만들고 pull로 내 컴퓨터에 가져오는것 이렇게 2가지가 있다 
-.
+그리고 웹에서 branch를 만들고 pull로 내 컴퓨터에 가져오는것 이렇게 2가지가 있다.
+
 만들어진 branch는 git checkout branch명으로 이동 가능하다.
 */
 
